@@ -20,6 +20,8 @@ We use OpenCV 3.3.1 to manipulate images and features.
 Noted that [line_descripter](https://github.com/opencv/opencv_contrib/tree/master/modules/line_descriptor) should be impoerted from the [OpenCV/contrib](https://github.com/opencv/opencv_contrib) library independently.
 ### Eigen3
 We use Eigen 3.3.4. It can be found at: http://eigen.tuxfamily.org.
+### Ceres Solver
+We use ceres-solver-1.14.0 for nonlinear optimization. It can be found at: https://ceres-solver.googlesource.com/ceres-solver.
 ### DBoW2 and g2o
 We use modified versions of the [DBoW2](https://github.com/dorian3d/DBoW2) library to perform place recognition and [g2o](https://github.com/RainerKuemmerle/g2o) library to perform non-linear optimizations.
 ## 3. Building PLI-SLAM library and examples on ROS
